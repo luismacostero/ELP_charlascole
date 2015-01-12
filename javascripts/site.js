@@ -53,6 +53,9 @@ var datosFrases = [
 
 $(document).ready(function() {
   $('#tabla_frases').dataTable({
+    "paging": false,
+    "scrollY": 550,
+    "searching": false,
     "data": datosFrases,
     "columns": [
       {"title":" ",
