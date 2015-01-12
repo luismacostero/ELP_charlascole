@@ -55,7 +55,8 @@ $(document).ready(function() {
   $('#tabla_frases').dataTable({
     "data": datosFrases,
     "columns": [
-      {"title":"Frase"},
+      {"title":"Frase",
+      "className":"first_column"},
       {"title":"Twitter"},
       {"title":"Whatsapp"},
       {"title":"Instagram"},
