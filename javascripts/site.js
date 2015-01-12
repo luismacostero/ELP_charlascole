@@ -55,12 +55,12 @@ $(document).ready(function() {
   $('#tabla_frases').dataTable({
     "data": datosFrases,
     "columns": [
-      {"title":"Frase",
+      {"title":" ",
       "className":"first_column"},
-      {"title":"Twitter"},
-      {"title":"Whatsapp"},
-      {"title":"Instagram"},
-      {"title":"Ninguna"}
+      {"title":"<img src='images/twitter.png' height='20' width='20'>"},
+      {"title":"<img src='images/whatsapp.png' height='20' width='20'>"},
+      {"title":"<img src='images/instagram.png' height='20' width='20'>"},
+      {"title":"<img src='images/cruz_roja.png' height='20' width='20'>"}
     ]
   });
 });
