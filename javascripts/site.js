@@ -53,13 +53,14 @@ var datosFrases = [
 
 $(document).ready(function() {
   $('#tabla_frases').dataTable({
-    "paging": false,
-    "scrollY": 550,
+//    "paging": false,
+//   "scrollCollapse": true,
+//    "scrollY": 550,
     "searching": false,
     "data": datosFrases,
     "columns": [
       {"title":" ",
-      "className":"first_column"},
+       "className":"first_column"},
       {"title":"<img src='images/twitter.png' height='20' width='20'>"},
       {"title":"<img src='images/whatsapp.png' height='20' width='20'>"},
       {"title":"<img src='images/instagram.png' height='20' width='20'>"},
