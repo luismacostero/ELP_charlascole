@@ -322,7 +322,18 @@ Full-Width Styles
   bottom: -40px;
   right: 0;
   height: 70px;
-  background: url('../images/icon_download.png') no-repeat 0% 90%;
+  /*  background: url('../images/icon_download.png') no-repeat 0% 90%; */
+}
+
+#downloads_ico {
+/*  position: absolute;
+  z-index: 10;
+  bottom: -40px; */
+  width: 100%;
+  right: 0;
+  text-align: right;
+/*  background: url('../images/icon_download.png') no-repeat 67% 35%;
+  border: solid 1px #ff0000; */
 }
 
 .zip_download_link {
